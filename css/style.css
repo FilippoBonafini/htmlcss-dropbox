@@ -1,0 +1,78 @@
+/* ------ */
+/* RESET  */
+/* ------ */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    display: block;
+}
+
+/* ------ */
+/* TYPE  */
+/* ------ */
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* ------ */
+/* HEADER  */
+/* ------ */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+header .menu{
+    display: flex;
+    align-items: center;
+}
+
+header .menu li{
+    padding: 25px;
+}
+
+
+
+
+
+
+/* ------ */
+/* RESET  */
+/* ------ */
+
+
+/* ------ */
+/* RESET  */
+/* ------ */
+
+
+/* ------ */
+/* RESET  */
+/* ------ */
+
+
+/* ------ */
+/* RESET  */
+/* ------ */
