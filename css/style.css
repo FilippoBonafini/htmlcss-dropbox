@@ -27,12 +27,20 @@ img{
 
 *{
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+header a{
+    font-size: 15px;
 }
 
 h1{
     font-size: 90px;
 }
 
+h2{
+    font-size: 50px;
+}
 
 
 
@@ -46,9 +54,14 @@ h1{
     
  }
 
-main .big{
+main section .big{
     margin: auto;
     max-width: 1200px;
+} 
+
+main section .small{
+    margin: auto;
+    max-width: 1000px;
 } 
 
 
@@ -56,8 +69,16 @@ main .big{
     background-color: #b4d0e7;
 }
 
+section{
+    margin-bottom: 150px;
+}
 
 
+.button-primary{
+    padding: 17px;
+    background-color: #0061ff;
+    color: white;
+}
 
 
 /* ------ */
@@ -88,10 +109,9 @@ header .menu li{
 
 
 
-
-/* ------ */
-/* MAIN  */
-/* ------ */
+/* ---------- */
+/* MAIN  BOX 1*/
+/* ---------- */
 
 .box-1{
     display: flex;
@@ -112,9 +132,19 @@ header .menu li{
     top: 80px;
 }
 
+.content-box-1 .button-primary{
+    display: inline-block;
+    margin: 35px 0;
+}
+
+.content-box-1 .fa-arrow-down{
+    padding-top: 50px;
+}
 
 
-
+.content-box-1 i{
+    font-size: 50px;
+}
 
 
 /* ------ */
