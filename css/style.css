@@ -40,6 +40,7 @@ h1{
 
 h2{
     font-size: 50px;
+    padding-bottom: 70px;
 }
 
 
@@ -105,7 +106,11 @@ header .menu li{
     padding: 25px;
 }
 
+/* EFFETTI */
 
+header .menu li:hover{
+    border-bottom: 5px solid black;
+}
 
 
 
@@ -113,44 +118,54 @@ header .menu li{
 /* MAIN  BOX 1*/
 /* ---------- */
 
-.box-1{
-    display: flex;
-}
-
-.box-1 .content-box-1{
-    width: 40%;
-    padding-top: 60px;
-}
-
-.box-1 img{
-    width: 60%;
-    padding-top: 60px;
-}
-
 .section-1{
     position: relative;
     top: 80px;
 }
 
-.content-box-1 .button-primary{
+.section-1 .box-1{
+    display: flex;
+}
+
+.section-1 .box-1 .content-box-1{
+    width: 40%;
+    padding-top: 60px;
+}
+
+.section-1 .box-1 img{
+    width: 60%;
+    padding-top: 60px;
+}
+
+.section-1 .content-box-1 .button-primary{
     display: inline-block;
     margin: 35px 0;
 }
 
-.content-box-1 .fa-arrow-down{
+.section-1 .content-box-1 .fa-arrow-down{
     padding-top: 50px;
 }
 
 
-.content-box-1 i{
+.section-1 .content-box-1 i{
     font-size: 50px;
 }
 
 
-/* ------ */
-/* MAIN  */
-/* ------ */
+/* --------- */
+/* MAIN BOX 2*/
+/* --------- */
 
+.section-2 .box-1{
+    padding-bottom: 50px ;
+    border: 2px solid rebeccapurple;
+}
+
+
+.section-2 .box-1 label{
+    padding-left: 3px;
+    padding-right: 70px;
+}
 
 /* ------ */
 /* RESET  */
