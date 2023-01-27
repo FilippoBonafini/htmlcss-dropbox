@@ -29,12 +29,42 @@ img{
     font-family: 'Roboto', sans-serif;
 }
 
+h1{
+    font-size: 90px;
+}
+
+
+
+
+
+/* ------ */
+/* COMMON  */
+/* ------ */
+
+ main{
+    margin-top: 75px ;
+    
+ }
+
+main .big{
+    margin: auto;
+    max-width: 1200px;
+} 
+
+
+.sfondo-blu{
+    background-color: #b4d0e7;
+}
+
+
+
 
 
 /* ------ */
 /* HEADER  */
 /* ------ */
 header{
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,6 +72,7 @@ header{
     top: 0;
     right: 0;
     left: 0;
+    z-index: 999;
 }
 
 header .menu{
@@ -59,12 +90,35 @@ header .menu li{
 
 
 /* ------ */
-/* RESET  */
+/* MAIN  */
 /* ------ */
+
+.box-1{
+    display: flex;
+}
+
+.box-1 .content-box-1{
+    width: 40%;
+    padding-top: 60px;
+}
+
+.box-1 img{
+    width: 60%;
+    padding-top: 60px;
+}
+
+.section-1{
+    position: relative;
+    top: 80px;
+}
+
+
+
+
 
 
 /* ------ */
-/* RESET  */
+/* MAIN  */
 /* ------ */
 
 
