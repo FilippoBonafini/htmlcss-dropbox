@@ -26,7 +26,7 @@ img{
 /* ------ */
 
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 
@@ -35,15 +35,19 @@ header a{
 }
 
 h1{
-    font-size: 90px;
+    font-size: 77px;
+    font-weight: 700;
 }
 
 h2{
     font-size: 50px;
     padding-bottom: 70px;
+    font-weight: 600;
 }
 
-
+i{
+    padding-right: 7px;
+}
 
 
 /* ------ */
@@ -79,37 +83,43 @@ section{
     padding: 17px;
     background-color: #0061ff;
     color: white;
+    text-align: center;
 }
 
 
 /* ------ */
 /* HEADER  */
 /* ------ */
-header{
+header nav{
     background-color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 999;
+    height: 80px;
 }
 
-header .menu{
+nav .menu{
+    display: flex;
+}
+
+
+
+nav .menu li{
+    padding: 0 40px;
+    height: 80px;
     display: flex;
     align-items: center;
 }
 
-header .menu li{
-    padding: 25px;
-}
-
 /* EFFETTI */
 
-header .menu li:hover{
-    border-bottom: 5px solid black;
+nav .menu li:hover{
+    border-bottom: 2px solid black;
 }
 
 
@@ -143,7 +153,7 @@ header .menu li:hover{
 }
 
 .section-1 .content-box-1 .fa-arrow-down{
-    padding-top: 50px;
+    padding-top: 35px;
 }
 
 
@@ -157,9 +167,7 @@ header .menu li:hover{
 /* --------- */
 
 .section-2 .box-1{
-    padding-bottom: 50px ;
-    border: 2px solid rebeccapurple;
-}
+    padding-bottom: 50px ;}
 
 
 .section-2 .box-1 label{
@@ -167,6 +175,66 @@ header .menu li:hover{
     padding-right: 70px;
 }
 
+.section-2 .piano{
+    margin: 20px;
+    width: 33%;
+    border: 1px solid black;
+    
+}
+
+
+.section-2 .nome-piano{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+
+}
+
+.section-2 .piano .contenuto-box{
+    margin: 25px;
+    
+}
+
+.section-2 .price{
+    padding-bottom: 30px;
+
+}
+
+.section-2 .price h3{
+    font-size: 24px
+}
+
+.section-2 .price .price-euro{
+    padding: 10px 0;
+}
+
+.section-2 .info-piano li{
+    padding-bottom: 20px ;
+    display: flex;
+}
+
+
+.section-2 .button-primary{
+    margin: 30px 0 10px 0;
+}
+
+.section-2 hr{
+    margin: 30px 0 50px 0;
+}
+
+.section-2 .check i{
+    color: blue;
+}
+.section-2 .important{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.section-2 .box-2{
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
 /* ------ */
 /* RESET  */
 /* ------ */

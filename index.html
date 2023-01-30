@@ -9,32 +9,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <!-- INIZIO HEADER  -->
     <header>
-        <!-- MENU SINISTRA -->
-        <div class="menu-sinistra">
-            <ul class="menu">
-                <li><a href="#"><img src="img/logo-small.png" alt=""></a></li>
-                <li><a href="#">Perchè Dropbox</a></li>
-                <li><a href="#">Funzioni</a></li>
-                <li><a href="#">Piani e Prezzi</a></li>
-            </ul>
-        </div>
-        <!-- /MENU SINISTRA -->
-        <!-- MENU DESTRA -->
-        <div class="menu-destra">
-            <ul class="menu">
-                <li><a href="#">Supporto</a></li>
-                <li><a href="#">Contatta l'ufficio vendite</a></li>
-                <li><a href="#">Accedi</a></li>
-                <li><a href="#">Inizia</a></li>
-            </ul>
-        </div>
-        <!-- /MENU DESTRA -->
+        <nav>
+            <!-- MENU SINISTRA -->
+            <div class="menu-sinistra">
+                <ul class="menu">
+                    <li><a href="#"><img src="img/logo-small.png" alt=""></a></li>
+                    <li><a href="#">Perchè Dropbox</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                    <li><a href="#">Piani e Prezzi</a></li>
+                </ul>
+            </div>
+            <!-- /MENU SINISTRA -->
+            <!-- MENU DESTRA -->
+            <div class="menu-destra">
+                <ul class="menu">
+                    <li><a href="#">Supporto</a></li>
+                    <li><a href="#">Contatta l'ufficio vendite</a></li>
+                    <li><a href="#">Accedi</a></li>
+                    <li><a href="#">Inizia</a></li>
+                </ul>
+            </div>
+            <!-- /MENU DESTRA -->
+        </nav>
     </header>
     <!-- FINE HEADER  -->
 
@@ -65,19 +70,104 @@
                 <!-------BOX 1------->
                 <div class="box-1">
                     <h2>Trova il piano business che fa per te</h2>
-                    <input type="radio" name="age">
+                    <input type="radio" name="piano">
                     <label>Fatturazione mensaile</label>
-                    <input type="radio" name="age">
+                    <input type="radio" name="piano">
                     <label>Fatturazione annuale</label>
                 </div>
                 <!------/BOX 1------->
                 <div class="box-2">
                     <div class="piano">
-                        <div>Singolo</div>
-                        <h3>Professional</h3>
-                        <div>$12,00</div>
-                        <div>/mese</div>
+                        <div class="nome-piano"><i class="fa-solid fa-user"></i>Singolo</div>
+
+                        <div class="contenuto-box">
+                            <div class="price">
+                                <h3>Professional</h3>
+                                <div class="price-euro">$12,00</div>
+                                <div>/mese</div>                                
+                            </div>
+                            <div class="info-piano">
+                                <ul>
+                                    <li><i class="fa-solid fa-user"></i>1 utente</li>
+                                    <li><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro</li>
+                                    <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                                </ul>
+                            </div>
+
+                            <div class="button-primary"><a href="#" class="button-primary">gratis per 30 giorni</a></div>
+                            <span class="acquista-ora">Oppure <a href="#">acquista ora</a></span>
+                            <hr>
+                            <div class="info-piano check">
+                            <div class="important">Punti salienti del piano</div>
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i>Invia file fino a 100 GB con Dropbox transfert</li>
+                                    <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobile</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="piano">
+                        <div class="nome-piano"><i class="fa-solid fa-user"></i>Singolo</div>
+
+                        <div class="contenuto-box">
+                            <div class="price">
+                                <h3>Professional</h3>
+                                <div class="price-euro">$12,00</div>
+                                <div>/mese</div>                                
+                            </div>
+                            <div class="info-piano">
+                                <ul>
+                                    <li><i class="fa-solid fa-user"></i>1 utente</li>
+                                    <li><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro</li>
+                                    <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                                </ul>
+                            </div>
+
+                            <div class="button-primary"><a href="#" class="button-primary">gratis per 30 giorni</a></div>
+                            <span class="acquista-ora">Oppure <a href="#">acquista ora</a></span>
+                            <hr>
+                            <div class="info-piano check">
+                            <div class="important">Punti salienti del piano</div>
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i>Invia file fino a 100 GB con Dropbox transfert</li>
+                                    <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobile</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="piano">
+                        <div class="nome-piano"><i class="fa-solid fa-user"></i>Singolo</div>
+
+                        <div class="contenuto-box">
+                            <div class="price">
+                                <h3>Professional</h3>
+                                <div class="price-euro">$12,00</div>
+                                <div>/mese</div>                                
+                            </div>
+                            <div class="info-piano">
+                                <ul>
+                                    <li><i class="fa-solid fa-user"></i>1 utente</li>
+                                    <li><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro</li>
+                                    <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                                </ul>
+                            </div>
+
+                            <div class="button-primary"><a href="#" class="button-primary">gratis per 30 giorni</a></div>
+                            <span class="acquista-ora">Oppure <a href="#">acquista ora</a></span>
+                            <hr>
+                            <div class="info-piano check">
+                            <div class="important">Punti salienti del piano</div>
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i>Invia file fino a 100 GB con Dropbox transfert</li>
+                                    <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobile</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
