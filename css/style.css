@@ -450,3 +450,21 @@ nav .menu li:hover{
     padding: 10px 50px;
     border: none;
 }
+
+/* ----------- */
+/* MAIN BOX 8  */
+/* ----------- */
+.section-8 h3{
+    padding-bottom: 70px;
+}
+
+.section-8 .domanda{
+    display: flex;
+    padding-right: 30px;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 35px 0;
+}
+.section-8:last-child{
+    border-bottom: 1px solid black;
+}
