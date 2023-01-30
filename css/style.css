@@ -177,9 +177,14 @@ nav .menu li:hover{
 
 .section-2 .piano{
     margin: 20px;
-    width: 33%;
+    width: calc(33% - 37px);
     border: 1px solid black;
     
+}
+
+.section-2 .finale{
+    width: 100%;
+    border: 1px solid black;
 }
 
 
@@ -201,7 +206,7 @@ nav .menu li:hover{
 }
 
 .section-2 .price h3{
-    font-size: 24px
+    font-size: 24px;
 }
 
 .section-2 .price .price-euro{
@@ -232,8 +237,24 @@ nav .menu li:hover{
 
 .section-2 .box-2{
     display: flex;
-    border: 1px solid black;
     flex-wrap: wrap;
+    margin: 0 -20px;
+
+}
+
+.section-2 .box-2 .big{
+    flex-grow: 1;
+    position: relative;
+}
+
+.section-2 .box-2 .info-aziende{
+    margin-right: 350px;
+}
+
+.section-2 .big .button-primary{
+    position: absolute;
+    top: 30px;
+    right: 20px;
 }
 /* ------ */
 /* RESET  */
