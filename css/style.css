@@ -107,6 +107,7 @@ section{
     background-color: #0061ff;
     color: white;
     text-align: center;
+    border: 1px solid #0061ff;
 }
 
 .button-secondary{
@@ -121,6 +122,18 @@ hr{
     width: 120px;
 }
 
+
+.button-primary:hover{
+    background-color: white;
+    color: #0061ff;
+}
+
+
+.button-secondary:hover{
+    background-color: #0061ff;
+    color: white;
+    border: none;
+}
 /* ------ */
 /* HEADER  */
 /* ------ */
@@ -290,6 +303,13 @@ nav .menu li:hover{
     top: 30px;
     right: 20px;
 }
+
+.section-2 .button-primary a{color: white;
+}
+.section-2 .button-primary:hover a{
+    color: #0061ff;
+}
+
 /* ----------- */
 /* MAIN BOX 3  */
 /* ----------- */
@@ -305,8 +325,12 @@ nav .menu li:hover{
     padding-top: 35px;
 }
 
+.section-3 .img{
+    width: 600px;
+}
+
 .section-3 img{
-    width: 60%;
+    width: 100%;
 }
 
 .section-3 .content p{
@@ -479,12 +503,30 @@ nav .menu li:hover{
     justify-content: space-between;
     border-top: 1px solid black;
     padding: 35px 0;
+    flex-wrap: wrap;
 }
 .section-8:last-child{
     border-bottom: 1px solid black;
 }
 
+.section-8 .domanda a{
+    width: 70%;
+}
 
+.section-8 .domanda i{
+    width: 30%;
+    text-align: end;
+}
+
+.section-8 .domanda p{
+    color: black;
+    display: none;
+    padding-top: 30px;
+}
+
+.section-8 .domanda:hover p{
+    display: inline;
+}
 
 /* ----------- */
 /* FOOTER */
@@ -519,4 +561,6 @@ footer .lingua *{
     padding-bottom: 30px;
 }
 
-
+footer a:hover{
+    text-decoration: underline;
+}
