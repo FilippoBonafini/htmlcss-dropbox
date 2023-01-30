@@ -443,5 +443,10 @@ nav .menu li:hover{
 .section-7 h3{
     color:#61082b ;
     max-width: 480px;
-    padding: 130px 0;
+    padding: 120px 0;
+}
+
+.section-7 .button-secondary{
+    padding: 10px 50px;
+    border: none;
 }
