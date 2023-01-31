@@ -381,10 +381,11 @@ nav .menu li:hover{
 
 .section-6{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .section-6 .box-container,.content{
-    width: calc(100vw/3);
+    width: calc(100%/3);
     height: calc(100vw/3);
 }
 
