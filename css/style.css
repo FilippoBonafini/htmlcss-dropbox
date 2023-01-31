@@ -126,6 +126,7 @@ hr{
 .button-primary:hover{
     background-color: white;
     color: #0061ff;
+    cursor:pointer;
 }
 
 
@@ -133,6 +134,7 @@ hr{
     background-color: #0061ff;
     color: white;
     border: none;
+    cursor:pointer;
 }
 /* ------ */
 /* HEADER  */
@@ -416,7 +418,6 @@ nav .menu li:hover{
 
 .section-6 img{
     width: 50%;
-    height: 50%;
     
 }
 
