@@ -136,6 +136,8 @@ hr{
     border: none;
     cursor:pointer;
 }
+
+
 /* ------ */
 /* HEADER  */
 /* ------ */
@@ -178,12 +180,14 @@ header nav .menu li{
     position: relative;
 }
 
-header nav .menu .button-primary{
+header nav .menu .button-primary,
+header nav .menu .button-secondary{
     padding: 5px 30px;
 }
 
-header .login-menu .button-primary{
-    margin: 25px 30px 0px 30px;
+header .login-menu .button-primary,
+header .login-menu .button-secondary{
+    margin: 20px 30px 5px 30px;
 }
 
 header .login{
@@ -649,4 +653,52 @@ footer .lingua *{
 
 footer a:hover{
     text-decoration: underline;
+}
+
+
+/* PAGINA CLIENTI */
+.clienti{
+    padding-top: 100px;
+}
+
+/* PAGINA REGISTRAZIONE */
+#inizia h2{
+    margin-top: 100px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+#inizia .form{
+    padding-bottom:50px;
+}
+
+#inizia .form div{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+} 
+
+#inizia .form input{
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+}
+
+#inizia main .small{
+    background-color: #0061ff;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+}
+
+#inizia .button-secondary{
+    display: block;
+    border: none;
+    width: 30%;
+    height: 40px;
+    margin: auto;
 }
