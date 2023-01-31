@@ -148,6 +148,8 @@ header nav{
     left: 0;
     z-index: 999;
     height: 80px;
+    -webkit-box-shadow: 4px 1px 25px 5px rgba(0,0,0,0.77); 
+    box-shadow: 4px 1px 25px 5px rgba(0,0,0,0.77);  
 }
 
 nav .menu{
@@ -161,6 +163,10 @@ nav .menu li{
     height: 80px;
     display: flex;
     align-items: center;
+}
+
+nav .menu .button-primary{
+    padding: 5px 30px;
 }
 
 /* EFFETTI */
@@ -185,18 +191,19 @@ nav .menu li:hover{
 }
 
 .section-1 .box-1 .content-box-1{
-    width: 40%;
+    width: 30%;
     padding-top: 60px;
 }
 
 .section-1 .box-1 img{
-    width: 60%;
+    width: 70%;
     padding-top: 60px;
 }
 
 .section-1 .content-box-1 .button-primary{
     display: inline-block;
     margin: 35px 0;
+    padding: 15px 30px;
 }
 
 .section-1 .content-box-1 .fa-arrow-down{
@@ -409,7 +416,7 @@ nav .menu li:hover{
 
 .section-6 img{
     width: 50%;
-    height: calc(100vw/3)/2;
+    height: 50%;
     
 }
 
@@ -525,7 +532,9 @@ nav .menu li:hover{
     padding-top: 30px;
 }
 
-.section-8 .domanda:hover p{
+/* effetti */
+
+.section-8 .domanda:active p{
     display: inline;
 }
 
@@ -561,6 +570,8 @@ footer .lingua *{
     color:#999999;
     padding-bottom: 30px;
 }
+
+/* Effetti */
 
 footer a:hover{
     text-decoration: underline;
