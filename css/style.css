@@ -336,8 +336,12 @@ nav .menu li:hover{
 
 
 
+.section-3 .img{
+    width: 60%;
+}
+
 .section-3 img{
-    max-width: 600px;
+    width: 100%;
 }
 
 .section-3 .content p{
@@ -391,7 +395,8 @@ nav .menu li:hover{
     flex-wrap: wrap;
 }
 
-.section-6 .box-container,.content{
+.section-6 .box-container,
+.section-6 .content{
     width: calc(100%/3);
     height: calc(100vw/3);
 }
@@ -527,7 +532,7 @@ nav .menu li:hover{
     text-align: end;
 }
 
-.section-8 .domanda p{
+.section-8 .domanda p:last-child{
     color: black;
     display: none;
     padding-top: 30px;
@@ -535,7 +540,7 @@ nav .menu li:hover{
 
 /* effetti */
 
-.section-8 .domanda:active p{
+.section-8 .domanda:active p:last-child{
     display: inline;
 }
 
