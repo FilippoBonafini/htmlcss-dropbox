@@ -182,6 +182,40 @@ header nav .menu .button-primary{
     padding: 5px 30px;
 }
 
+header .login{
+    position: relative;
+}
+
+header .login-menu{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    display: none;
+    background-color: white;
+    width: 200%;
+    display: none;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 0px 23px 26px 5px rgba(0,0,0,0.48); 
+    box-shadow: 0px 23px 26px 5px rgba(0,0,0,0.48);
+
+}
+
+header .login-menu input{
+    border-radius: 5px;
+    height: 30px;
+    border: 0.4px solid grey;
+}
+
+header .login-menu div{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+header .resta-collegato{
+    display: flex;
+}
+
 /* EFFETTI */
 
 header nav .menu li:hover{
@@ -190,6 +224,13 @@ header nav .menu li:hover{
 
 header nav li:hover ul{
     display: block;
+}
+
+header .login:hover .login-menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 
