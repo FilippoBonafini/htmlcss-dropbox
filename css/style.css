@@ -154,29 +154,43 @@ header nav{
     box-shadow: 4px 1px 25px 5px rgba(0,0,0,0.77);  
 }
 
-nav .menu{
+header nav .menu{
     display: flex;
 }
 
+header nav .menu li ul{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: white;
+    -webkit-box-shadow: 0px 23px 26px 5px rgba(0,0,0,0.48); 
+    box-shadow: 0px 23px 26px 5px rgba(0,0,0,0.48);
+    display: none;
+    width: 180%;
 
+}
 
-nav .menu li{
+header nav .menu li{
     padding: 0 40px;
     height: 80px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
-nav .menu .button-primary{
+header nav .menu .button-primary{
     padding: 5px 30px;
 }
 
 /* EFFETTI */
 
-nav .menu li:hover{
-    border-bottom: 2px solid black;
+header nav .menu li:hover{
+    background-color: rgb(235, 235, 235);
 }
 
+header nav li:hover ul{
+    display: block;
+}
 
 
 /* ---------- */
