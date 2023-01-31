@@ -325,12 +325,10 @@ nav .menu li:hover{
     padding-top: 35px;
 }
 
-.section-3 .img{
-    width: 600px;
-}
+
 
 .section-3 img{
-    width: 100%;
+    max-width: 600px;
 }
 
 .section-3 .content p{
